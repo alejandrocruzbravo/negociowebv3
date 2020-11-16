@@ -1,0 +1,263 @@
+*{margin:0;
+padding:0;}
+
+.back{
+    background:black;
+}
+.header{
+    width:100%;
+    overflow: hidden;
+    background:#760101;
+    margin-bottom: 20px;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    color:#FAF8EF;
+    font-family: 'AR DESTINE';
+    font-size: 50px;
+    line-height: 200px;
+    float: left;
+
+}
+.logo img{
+    float: left;
+}
+.nav{
+    float: right;
+    line-height: 200px;
+}
+.nav-a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+}
+a:hover{
+    background:gray;
+    border-radius: 50px;
+}
+.displaybanner{
+    position: fixed;
+    height: 100px;
+
+}
+.displaybanner .logo{
+    line-height: 100px;
+    font-size: 30px;
+
+}
+.displaybanner .nav{
+    line-height: 100px;
+    
+}
+.content p{
+    padding-top: 100px;
+}
+@media screen and (max-width: 950px){
+    header .logo,
+    header .nav{
+        width:100%;
+        text-align: center;
+        line-height: 100px;
+    }
+    .displaybanner{
+        height: auto;
+    }
+    .displaybanner .logo,
+    .displaybanner .nav{
+        line-height: 50px;
+    }
+}
+
+/*INICIO*/
+html{
+    scroll-behavior: smooth;
+}
+
+#inicio
+{
+    background-image: url(https://www.henrychiropracticcenter.com/wp-content/uploads/2019/01/gym-stock-phot.jpg);
+    background-size: cover;
+}
+.text
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    color:white;
+}
+.color
+{
+    background-color: coral;
+    border: 5px solid;
+    border-color: black;
+}
+#welcome
+{
+    color: red;
+    font-family: 'AR DESTINE';
+    font-size: 200px;
+}
+section
+{
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 40px;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+section h2
+{   
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+section p
+{
+    color: white;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+section img
+{
+    height: 60%;
+}
+#sec1
+{
+    background-color: black;
+}
+#sec2
+{
+   background-color: orangered;
+}
+#sec3
+{
+    background-color: black;
+}
+
+section a
+{
+    display: inline-block;
+    padding: 7px 0;
+    color: #283773;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: cornsilk;
+}
+.cerrar
+{
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    
+}
+/*Formularios*/
+.form{
+    background-color:#686767;
+    border: 1px solid;
+    border-color: black;
+    margin: 200px 300px 300px 300px;
+    font-size: 85%;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form h1{
+    font-size: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.button{
+    float: left;
+}
+
+/*footer*/
+#footer{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color:rgb(49, 46, 46);   
+}
+
+.container-all{
+    width: 1000px;
+    max-width: 1200px;
+    margin: auto;
+}
+.container_body{
+    display: flex;
+    justify-content: space-between;
+}
+/*FOOTER INFORMACION*/
+.column1{
+    max-width: 400px;
+    margin: 10px;
+}
+.column1 h1{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.column p{
+    font-size: 14px;
+    color:gray;
+    margin-top: 20px;
+}
+/*FOOTER REDES SOCIALES*/
+.column2{
+    max-width: 400px;
+    margin: 10px 30px 30px;
+}
+.column2 h1{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.column2 label{
+    font-size: 14px;
+}
+.column2 .filas{
+    margin-top: 10px;
+    display: flex;
+}
+/*FOOTER CONTACTO*/
+.column3{
+    max-width: 400px;
+    margin: 10px 30px 30px 100px;
+}
+.column3 h1{
+    font-size: 25px;
+    color: whitesmoke;
+}
+.column3 label{
+    font-size:14px;
+}
+.column3 .filas2{
+    margin-top: 10px;
+    display: flex;
+
+}
+.colorlist
+{
+    background-color: burlywood;
+}
+.title_shop{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 200px;
+
+}
